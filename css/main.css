@@ -959,7 +959,7 @@ ul.slimmenu li > ul > li ul {
   color: #fff; }
 
 .grid figcaption span:before {
-  content: 'by '; }
+  content: ' '; }
 
 .grid figure {
   margin: 0;
