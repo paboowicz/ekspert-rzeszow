@@ -1,0 +1,21 @@
+/* Variables css */
+
+
+$font-size-base:          14px;
+$font-size-h1:            floor(($font-size-base * 2.6)); // ~36px
+$font-size-h2:            floor(($font-size-base * 2.15)); // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)); // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)); // ~18px
+$font-size-h5:            $font-size-base;
+$font-size-h6:            ceil(($font-size-base * 0.85)); // ~12px 
+
+
+$rex-body:                        #fff;
+$rex-text-color:				  #6c6c6c;
+$rex-heading-color:				  #18191a;
+$rex-span-color:                  #f86759;
+$rex-section-color:               #ebeef4;
+$rex-section-fields:			  #f8fffe;
+$rex-boder-color:				  #f3f3f3;
+$rex-hover-color:				  #f86759;
+

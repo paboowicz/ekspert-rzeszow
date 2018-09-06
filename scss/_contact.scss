@@ -1,0 +1,132 @@
+/* ==========================================================================
+   Contact section Style
+   ========================================================================== */
+
+
+.rex-contact{
+	padding-bottom: 100px;
+
+	/* contact left bar style */
+	.rex-address{
+		background: $rex-body;
+		padding: 18px;
+		@extend .full-width-border;
+	}
+
+	/* contact right bar style */
+	.form-section{
+		background: $rex-body;
+		overflow: hidden;
+		padding: 59px 40px 39px 55px;
+		@extend .full-width-border;
+		.col-md-12,.col-md-6{
+			padding: 0;
+		}
+		h6{
+			color: $rex-span-color;
+			padding-bottom: 15px
+		}
+		input, textarea, .form-group{
+			border-radius: 0;
+			margin: 0;
+			border-color: $rex-boder-color;
+			box-shadow: none;
+		}
+		input, textarea{
+			padding-left: 40px;
+			transition: 0.5s;
+			&:focus{
+				border-color: $rex-span-color;
+			}
+		}
+		textarea{
+			max-height: 118px;
+			padding-top: 20px;
+		}
+		.rx-form-group{
+			padding-bottom: 15px;
+			overflow: hidden;
+			position: relative;
+			input{
+				height: 40px;
+			}
+			i{
+				position: absolute;
+				top: 14px;
+				left: 14px;
+			}
+		}
+		.btn-default{
+			margin-top: 28px;
+			padding: 8px 62px 8px 35px;
+			border-radius: 2px;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 700;
+			font-size: 14px;
+			text-transform: uppercase;
+			transition: 0.5s;
+			position: relative;
+			border-color: $rex-boder-color;
+			&:hover{
+				background: none;
+				border-color: $rex-span-color;
+				color: $rex-span-color;
+			}
+			&:after{
+				content: "\f105";
+			    font-family: FontAwesome;
+			    position: absolute;
+			    border: 1px solid #f86759;
+			    color: $rex-span-color;
+			    border-radius: 100%;
+			    font-size: 8px;
+				top: 11px;
+				right: 37px;
+			    padding: 1px;
+			    width: 15px;
+			    height: 15px;
+			}
+		}
+		.rex-textarea{
+			i{
+				top: 25px;
+			}
+		}
+		.col-md-6{
+			&:first-child{
+				padding-right: 10px;
+			}
+			&:last-child{
+				padding-left: 10px;
+				i{
+					left: 24px;
+				}
+				input{
+					/* Change the white to any color ;) */
+					&:-webkit-autofill {
+					    -webkit-box-shadow: 0 0 0px 1000px white inset;
+					}
+
+				}
+			}
+		}
+		/* active icon color  */
+		.focus{
+			color: $rex-span-color;
+			transition: 0.5s;
+		}
+
+	}
+}
+
+
+/** Google Map**/
+.rx-map{
+	#googleMap{
+	  min-height: 345px;
+	  filter: gray; 
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(1); 
+        -webkit-filter: grayscale(100%);
+	}
+}
