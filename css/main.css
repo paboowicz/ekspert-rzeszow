@@ -885,7 +885,8 @@ ul.slimmenu li > ul > li ul {
       font-size: 12px;
       color: #f15860; }
     .rex-team .rex-team-content p {
-      padding: 33px 0 38px; }
+      padding: 33px 50px 38px 0; 
+	  text-align: justify;}
     .rex-team .rex-team-content .coffie {
       float: left;
       margin-right: 26px; }
