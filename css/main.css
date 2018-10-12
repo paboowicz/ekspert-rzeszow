@@ -229,6 +229,28 @@ nav .rex-search i:hover {
     bottom: 0;
     left: 0; }
 
+.rex-sub-title2 {
+  position: relative;
+  text-align: left;
+  padding-bottom: 20px;
+  margin-bottom: 15px; }
+  .rex-sub-title2:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 1px;
+    background-color: #18191a;
+    bottom: 2px;
+    left: 0; }
+  .rex-sub-title2:after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 1px;
+    background-color: #f15860;
+    bottom: 0;
+    left: 0; }
+	
 .rex-bottom {
   border: 1px solid #f15860;
   padding: 15px 48px 18px 24px;
@@ -702,13 +724,26 @@ ul.slimmenu li > ul > li ul {
 .rex-about {
   background: #fff; }
   .rex-about .rex-about-img {
-    padding-top: 100px; }
+    padding-top: 50px; }
   .rex-about .rex-about-text {
-    padding-left: 10%;
-    padding-top: 100px;
-    padding-bottom: 113px; }
+    text-align: justify;
+	padding-left: 1%;
+    padding-top: 50px;
+    padding-bottom: 10px; }
+  .rex-about .rex-about-text2 {
+    text-align: justify;
+	padding-left: 10%;
+    padding-top: 50px;
+    padding-bottom: 10px; }
+  .rex-about .rex-about-text3 {
+    text-align: justify;
+	padding-left: 1%;
+    padding-top: 50px;
+    padding-bottom: 70px; }	
   .rex-about h3 {
     font-weight: 700; }
+  .rex-about h5 {
+    font-weight: 400; }
   .rex-about p {
     color: #6c6c6c;
     line-height: 24px; }
@@ -874,7 +909,7 @@ ul.slimmenu li > ul > li ul {
   .rex-team .rex-team-content {
     background: #fff;
     padding-left: 67px;
-    min-height: 422px;
+    min-height: 600px;
     position: relative;
     margin-bottom: 54px;
     border: 1px solid #eee; }
@@ -2096,7 +2131,7 @@ footer {
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 /* Medium devices (desktops, 992px and up) */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   nav {
     padding: 15px 0; }
     nav .rex-logo {
@@ -2153,7 +2188,7 @@ footer {
       font-size: 10px;
       margin-right: 5px; }
   .rex-team .rex-team-content {
-    min-height: 351px;
+    min-height: 630px;
     margin-bottom: 20px; }
     .rex-team .rex-team-content .rex-team-text p {
       padding-right: 20px; }
@@ -2226,7 +2261,7 @@ footer {
     padding: 5px; } }
 
 /* Phone devices (Portrait and Landscape, 992px and up) */
-@media only screen and (min-width: 640px) and (max-width: 768px) {
+@media only screen and (min-width: 640px) and (max-width: 767px) {
   .select-row {
     position: relative; }
   .col-nav {
@@ -2288,6 +2323,7 @@ footer {
   .rex-team .rex-team-img {
     margin-bottom: 25px; }
   .rex-team .rex-team-content {
+	min-height: 520px;
     padding-left: 24px; }
   .rex-team .rex-team figure {
     float: none;
@@ -2405,6 +2441,9 @@ footer {
   .rex-team .rex-team figure {
     float: none;
     margin: 0 auto; }
+  
+  .rex-team .rex-team-content  {
+	min-height: 700px;}		  	
   .rex-team .cs-style-7 figure img {
     margin: 0 auto; }
   .rex-team .grid {
@@ -2492,6 +2531,8 @@ footer {
     padding: 0;
     background: none;
     z-index: 999; }
+  .rex-team .rex-team-content  {
+	min-height: 2500px;}		
   .rex-logo {
     z-index: 999;
     position: relative;
@@ -2621,7 +2662,7 @@ footer {
   .rex-team .rex-team-content {
     margin-bottom: 18px;
     margin-top: 20px;
-    min-height: 480px;
+    min-height: 850px;
     padding: 0 15px; }
     .rex-team .rex-team-content p {
       padding: 15px 15px 15px 0; }
